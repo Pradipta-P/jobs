@@ -9,7 +9,7 @@ pipelineJob('Test_DSL_Pipeline') {
   triggers {
     scm('H/5 * * * *')
   }
-  description("Pipeline for $repo")
+  description("Pipeline for Test_DSL")
 
   definition {
     cpsScm {
