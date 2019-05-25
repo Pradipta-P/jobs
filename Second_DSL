@@ -1,4 +1,4 @@
-pipelineJob('Test_DSL_Pipeline') {
+pipelineJob('Second_DSL') {
   
   properties {
     disableConcurrentBuilds()  
