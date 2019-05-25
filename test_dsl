@@ -1,7 +1,3 @@
-import org.jenkinsci.plugins.scriptsecurity.scripts.*
-toApprove = ScriptApproval.get().getPendingScripts().collect()
-toApprove.each {pending -> ScriptApproval.get().approveScript(pending.getHash())}
-
 pipelineJob('Test_DSL_Pipeline') {
   
   properties {
