@@ -7,5 +7,19 @@ listView('Devops') {
         name('Test_DSL_Pipeline')
         
     }
-    
+    jobFilters {
+        status {
+            status(Status.UNSTABLE)
+        }
+    }
+    columns {
+        status()
+        weather()
+        name()
+        lastSuccess()
+        lastFailure()
+        lastDuration()
+        buildButton()
+    }
+
 }
