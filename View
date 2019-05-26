@@ -1,5 +1,5 @@
 listView('Devops') {
-    description('All Devops jobs for project A')
+    description('All Devops jobs')
     filterBuildQueue()
     filterExecutors()
     jobs {
