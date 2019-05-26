@@ -3,7 +3,7 @@ listView('project-A') {
     filterBuildQueue()
     filterExecutors()
     jobs {
-        name('DSL_Pipeline','Test_DSL_Pipeline')
+        name('DSL_Pipeline', 'Test_DSL_Pipeline')
         
     }
     jobFilters {
