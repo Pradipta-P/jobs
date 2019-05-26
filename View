@@ -9,7 +9,7 @@ listView('Devops') {
     }
     jobFilters {
         status {
-            status(Status.UNSTABLE)
+            status(Status.SUCCESS)
         }
     }
     columns {
