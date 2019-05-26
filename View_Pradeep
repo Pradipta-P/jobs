@@ -1,6 +1,9 @@
-listView('prod') {
-  jobs {
-    name('DSL_Pipeline')
-    name('Test_DSL_Pipeline')
-  }
+def myJob=job{name('DSL_Pipeline')}
+def myJob2=job{name('Test_DSL_Pipeline')}
+view {
+  name('prod')
+  jobs{
+     name(myJob.name)
+    name(myJob2.name)
+  }   
 }
