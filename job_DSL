@@ -1,4 +1,5 @@
 listView("Pradeep") {
+jobs {
 pipelineJob('DSL_Pipeline') {
   
   properties {
@@ -29,5 +30,6 @@ pipelineJob('DSL_Pipeline') {
       }
     }
   }
+}
 }
 }
