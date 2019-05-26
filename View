@@ -7,11 +7,7 @@ listView('Devops') {
         name('Test_DSL_Pipeline')
         
     }
-    jobFilters {
-        status {
-            status(Status.SUCCESS)
-        }
-    }
+    
     columns {
         status()
         weather()
