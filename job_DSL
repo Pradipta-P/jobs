@@ -1,6 +1,5 @@
-listView("Pradeep") {
 pipelineJob('DSL_Pipeline') {
-  listview("Pradeep)
+
   properties {
     disableConcurrentBuilds()  
   }
@@ -29,5 +28,4 @@ pipelineJob('DSL_Pipeline') {
       }
     }
   }
-}
 }
