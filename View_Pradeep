@@ -1,4 +1,4 @@
-listView('Pradeep') {
+listView('prod') {
   jobs {
     name('DSL_Pipeline')
     name('Test_DSL_Pipeline')
