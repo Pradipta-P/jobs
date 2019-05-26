@@ -1,5 +1,5 @@
-listView('project-A') {
-    description('All unstable jobs for project A')
+listView('Devops') {
+    description('All Devops jobs for project A')
     filterBuildQueue()
     filterExecutors()
     jobs {
