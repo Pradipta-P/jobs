@@ -7,7 +7,7 @@ pipelineJob('DSL_Pipeline') {
   def repo = 'https://github.com/Pradipta-P/sonar.git'
 
   triggers {
-    scm('H/5 * * * *')
+    scm('H/15 * * * *')
   }
   description("Pipeline for Test_DSL")
 
