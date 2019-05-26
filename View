@@ -5,9 +5,7 @@ listView('Devops') {
     jobs {
         name('DSL_Pipeline')
         name('Test_DSL_Pipeline')
-        
     }
-    
     columns {
         status()
         weather()
