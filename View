@@ -1,3 +1,5 @@
+listView('prod') {
+}
 def myJob=job{name('DSL_Pipeline')}
 def myJob2=job{name('Test_DSL_Pipeline')}
 view {
