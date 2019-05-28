@@ -4,6 +4,7 @@ listView('Devops') {
     filterExecutors()
     jobs {
         name('DSL_Pipeline')
+        name('DSL_Pipeline_2')
         name('Test_DSL_Pipeline')
     }
     columns {
