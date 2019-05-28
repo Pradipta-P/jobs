@@ -50,7 +50,9 @@ pipelineJob('DSL_Pipeline_2') {
     cpsScm {
       scm {
         git {
-          remote { url(repo) }
+          remote { url(repo) 
+                   credentials('2568f8bd-e9c2-4033-8ab8-ea1cb79f2d52')
+                 }
           branches('master')
           scriptPath('Jenkinsfile')
           extensions { }  // required as otherwise it may try to tag the repo, which you may not want
