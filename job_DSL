@@ -17,7 +17,7 @@ pipelineJob('DSL_Pipeline') {
         git {
           remote { url(repo) }
           branches('master')
-          credentials('Pradipta-P')
+          credentials(Pradipta-P)
           scriptPath('Jenkinsfile')
           extensions { }  // required as otherwise it may try to tag the repo, which you may not want
         }
