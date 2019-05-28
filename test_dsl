@@ -16,17 +16,12 @@ pipelineJob('Test_DSL_Pipeline') {
       scm {
         git {
           remote { url(repo)
-                   credentials('2568f8bd-e9c2-4033-8ab8-ea1cb79f2d52')
+                   credentials('2568f8bd-e9c2-4033-8ab8-ea1cb79f2d52')  //Credentials ID not name
                  }
           branches('master')
           scriptPath('Jenkinsfile')
           extensions { }  // required as otherwise it may try to tag the repo, which you may not want
         }
-
-        // the single line below also works, but it
-        // only covers the 'master' branch and may not give you
-        // enough control.
-        // git(repo, 'master', { node -> node / 'extensions' << '' } )
       }
     }
   }
