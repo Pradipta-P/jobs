@@ -5,7 +5,7 @@ pipelineJob('DSL_Pipeline') {
   }
 
   def repo = 'https://github.com/Pradipta-P/sonar.git'
-
+  
   triggers {
     scm('H/15 * * * *')
   }
@@ -17,6 +17,7 @@ pipelineJob('DSL_Pipeline') {
         git {
           remote { url(repo) }
           branches('master')
+          gitCredentials ="Pradipta-P"
           scriptPath('Jenkinsfile')
           extensions { }  // required as otherwise it may try to tag the repo, which you may not want
         }
