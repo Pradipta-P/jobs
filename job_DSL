@@ -16,7 +16,7 @@ pipelineJob('DSL_Pipeline') {
       scm {
         git {
           remote { url(repo) 
-                   credentials('Pradipta-P')
+                   credentials('	Pradipta-P/******')
                  }
           branches('master')
           
